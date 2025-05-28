@@ -1,0 +1,100 @@
+.main-container{
+     border: 2px solid black; 
+    width: 100%;
+    
+
+}
+.navbar{
+    width:100%;
+    height: 50px;
+    position: sticky;
+    top:0px;
+    background-color: white;
+}
+a{
+text-decoration: none;
+    color: black;
+}
+.iteam{
+    display: flex;
+    justify-content: start;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.navbar1{
+    position: sticky;
+    top: 0px;
+     display: flex;
+     justify-content: end;
+     gap: 30px;
+     padding-bottom: 15px;
+     padding-right: 20px;
+
+}
+.image{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 700px;
+    background-image: url("https://www.w3schools.com/w3images/hamburger.jpg");
+    background-size: cover;
+    
+
+}
+.head{
+    margin: 30%;
+    position:relative ;
+    top: 30%;
+    padding:10px;
+
+    
+}
+.imagecontent{
+    display: inline-block;
+    /* border:2px solid blue; */
+    width: 100%;
+    height:770px ;
+    border-image: none;
+    display: flex;
+    justify-content: end;
+}
+.pic{
+    /* border: 2px solid; */
+    width: 48%;
+}
+img{
+    width:100%;
+    height: 770px;
+}
+.content{
+    /* border: 2px solid; */
+    width: 48%;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    
+}
+p2{
+color: cadetblue;
+}
+h4{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: cadetblue;
+}
+input{
+    width: 80%;
+    height: 50px;
+    margin: 10px;
+}
+button{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
